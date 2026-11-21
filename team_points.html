@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Team Points Over Time</title>
+  <style>
+    body{font-family:Arial, Helvetica, sans-serif;margin:20px}
+    #controls{margin-bottom:10px}
+    canvas{max-width:1000px}
+    .team-checkbox{margin-right:8px}
+  </style>
+</head>
+<body>
+  <h2>Team Points Over Time</h2>
+  <div id="controls">
+    <label>表示上限 (最新ポイントで上位 N チーム): <input id="topN" type="number" value="20" min="1" max="200" style="width:60px"/> </label>
+    <button id="redraw">再描画</button>
+    <span>（チェックで表示切替）</span>
+  </div>
+  <canvas id="chart" width="1000" height="400"></canvas>
+  <div id="checkboxes"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const data = {"dates":["2026-11-20"],"teams":[{"teamCode":"WV8LU9","teamName":"デイサービスすずき","points":[488078]},{"teamCode":"DWDBRQ","teamName":"Ｐｒｏｊｅｃｔ　ＷＥ","points":[224560]},{"teamCode":"SATXF2","teamName":"Ｔｅａｍウニ","points":[166240]},{"teamCode":"96M7ZV","teamName":"同人音楽愛好会","points":[151286]},{"teamCode":"XY4A4X","teamName":"Ｂｌｅｓｓｉｎｇ　ＮｅｘｔＰｈａｓｅ","points":[111642]},{"teamCode":"R1YTFS","teamName":"魔法少女ノ魔女裁判","points":[109896]},{"teamCode":"6KDBY4","teamName":"ミリオンライブ！ＮＥＷ！！","points":[109050]},{"teamCode":"W2J3Q4","teamName":"チームころねろこ","points":[98227]},{"teamCode":"TR10LF","teamName":"月鈴姉妹が好き","points":[79701]},{"teamCode":"ZNY819","teamName":"５ちゃんねる","points":[78503]},{"teamCode":"5X3XGX","teamName":"遍く無償の無限の愛","points":[77645]},{"teamCode":"PNCC23","teamName":"ソロプレイヤーコミュニティ","points":[71686]},{"teamCode":"A2SPZX","teamName":"御形アリシアナ愛好家","points":[71278]},{"teamCode":"2PYYYZ","teamName":"チュウニズムな人々","points":[67544]},{"teamCode":"GAERT3","teamName":"魔法少女にあこがれて","points":[65506]},{"teamCode":"656FNC","teamName":"社畜ＴＡＮＯ＊Ｃ","points":[64695]},{"teamCode":"SQWGE6","teamName":"－Ｄｏｐｐｅｌｇａｎｇｅｒ－","points":[63758]},{"teamCode":"C8H8M1","teamName":"ウニやるッスよ！！","points":[60382]},{"teamCode":"GW9AQL","teamName":"てんどんまん","points":[55176]},{"teamCode":"Q9CTGJ","teamName":"ＫｉＲａＲｅ","points":[54515]},{"teamCode":"EW2VC9","teamName":"イクイクイクシア","points":[53360]},{"teamCode":"T2Z34R","teamName":"お祈り片手トリル","points":[53348]},{"teamCode":"7HVM4M","teamName":"笠波羅探題","points":[52481]},{"teamCode":"ZMRCLM","teamName":"《廃人》〜Ａｌｗａｙｓ　ＣＨＵＮＩＴＨＭ","points":[52404]},{"teamCode":"ES2UC0","teamName":"言ノ葉の鈴生り","points":[52315]},{"teamCode":"4PY14F","teamName":"限界突破勢","points":[52237]},{"teamCode":"7AG4C6","teamName":"トリニティ総合学園　ティーパーティー部門","points":[51853]},{"teamCode":"YUHW89","teamName":"Ｒｅｍｉｎｉｓｃｅｎｃｅ","points":[51695]},{"teamCode":"ZM5E7X","teamName":"ユニのガーターリング","points":[50722]},{"teamCode":"MW1EW9","teamName":"∧ｌｌｙ（同盟）","points":[49244]},{"teamCode":"3M821C","teamName":"奏坂学園グラウンドスライダー同好会","points":[47025]},{"teamCode":"560FK0","teamName":"赤いスク水メイド隊","points":[46635]},{"teamCode":"1SYY6S","teamName":"縦連打党","points":[46634]},{"teamCode":"U37AQV","teamName":"ＡｄмｉЯｒｉ","points":[46100]},{"teamCode":"55JLN1","teamName":"・：＊＋．￥（（　°ω°　））／．：＋","points":[45912]},{"teamCode":"EYT3J9","teamName":"修論から逃げるな","points":[44838]},{"teamCode":"XU2MM2","teamName":"あまの誓い","points":[44807]},{"teamCode":"5YDBVT","teamName":"Ｃ：／ＵＮ［ｉ］ＫＮＯＷＮ／Ｓｙｓｔｅｍ","points":[44310]},{"teamCode":"TPGZQN","teamName":"Ｍｅｌｌｏｗ　ｏｆ　Ｌｉｇｈｔ＊","points":[43144]},{"teamCode":"RCPVM0","teamName":"ＳｎｏｗＰａｒｋ","points":[41849]},{"teamCode":"GXP6Z3","teamName":"初音ミクの胸を盛るな高校","points":[40730]},{"teamCode":"AM4HTC","teamName":"おねんね","points":[40713]},{"teamCode":"MRE6M4","teamName":"天使爛漫","points":[40352]},{"teamCode":"HR1CN7","teamName":"ＶＥＲＳＥ開放用チーム","points":[40070]},{"teamCode":"F4S0VB","teamName":"フラスコ・オーディション","points":[39263]},{"teamCode":"PUYTPU","teamName":"相対性理論","points":[38217]},{"teamCode":"VP5USC","teamName":"掘り炬燵潜り戸倉上山田杏月下覗き踏まれ部","points":[37548]},{"teamCode":"BAUEMZ","teamName":"ギターと孤独と青いユニ","points":[37317]},{"teamCode":"PAME1N","teamName":"モルりズム","points":[37153]},{"teamCode":"H3SCKJ","teamName":"Ｗｏｎｄｅｒｌａｎｄ　Ｄｒｅａｍｓ","points":[36810]},{"teamCode":"375201","teamName":"怒　－定数詐称と鳥寸について－","points":[36641]},{"teamCode":"DRUMB7","teamName":"コマリ倶楽部","points":[36348]},{"teamCode":"ZW5EML","teamName":"ＺＣ","points":[35850]},{"teamCode":"ULGS71","teamName":"無知蒙昧の衆","points":[35300]},{"teamCode":"EZV81H","teamName":"ＶＥＬＩＫＡ","points":[35068]},{"teamCode":"36L8E3","teamName":"ｂａｔｔｌｅ　ｍａｄｎｅｓｓ","points":[34742]},{"teamCode":"3FAFGX","teamName":"ＬＯＮＥＲ","points":[33144]},{"teamCode":"V2T0AG","teamName":"ＳｔａｒＬｉｇｈｔＳ","points":[33025]},{"teamCode":"LP6JP5","teamName":"全力！ハッピーエブリデイ！","points":[32454]},{"teamCode":"82CZ9M","teamName":"社会の癌","points":[32410]},{"teamCode":"DS680P","teamName":"ハイカラモーション","points":[32204]},{"teamCode":"TNT5M2","teamName":"ｃａｐｉｔａｌ","points":[31838]},{"teamCode":"DKBJX8","teamName":"ぼっち・ざ・うにろっく！","points":[31537]},{"teamCode":"9JUMT6","teamName":"ＣａｓｕａｌＧｅｍｅｒ＿ＣＨＵＮＩＴＨＭ","points":[31493]},{"teamCode":"TKZAZ4","teamName":"ホワイト企業","points":[31205]},{"teamCode":"UEMRAK","teamName":"た　ま","points":[30932]},{"teamCode":"BEK78T","teamName":"ＣＡＫＥ　ｓｗｅａｔｓ　ＡＬＬＭｉｘ！！","points":[30459]},{"teamCode":"DYTCEV","teamName":"さきいか","points":[30236]},{"teamCode":"5HV2SF","teamName":"みるくちゃん","points":[30213]},{"teamCode":"SFH92T","teamName":"ガボンズ","points":[29840]},{"teamCode":"BM01W6","teamName":"Ｏｍｏｃｈａ　　Ｓｃｒａｍｂｌｅ！","points":[28737]},{"teamCode":"HSMNL2","teamName":"マジウニミライ３９３９","points":[28494]},{"teamCode":"RYFGCQ","teamName":"チームたけうち","points":[27757]},{"teamCode":"G68MGV","teamName":"カバヂー","points":[27648]},{"teamCode":"LG3EM9","teamName":"スライドは“悪”委員会","points":[27577]},{"teamCode":"U8FQ2J","teamName":"Ｉｒｉｓ","points":[26988]},{"teamCode":"2X73E8","teamName":"こましぇると愉快な音ゲーマーｓ","points":[26985]},{"teamCode":"ZZ5N9R","teamName":"嬉しい＿♪","points":[26724]},{"teamCode":"5EREJ4","teamName":"Ｄｅｃｅｎｓｕｓ　Ａｄ　Ｎｉｈｉｌｕｍ","points":[26379]},{"teamCode":"X0N2WK","teamName":"竜田揚げより唐揚げ派","points":[25740]},{"teamCode":"X2VC64","teamName":"ゆーとぴあ","points":[25238]},{"teamCode":"BPCJQG","teamName":"〈聖域〉〜ＦａＮｕＭ〜","points":[25232]},{"teamCode":"BG9TA9","teamName":"ＲＯＭ専の館","points":[25150]},{"teamCode":"PEFMG1","teamName":"精度よわよわ民族","points":[24899]},{"teamCode":"HMQ2LV","teamName":"リプトン同好会","points":[24791]},{"teamCode":"YR2TLY","teamName":"夢のまた先へ","points":[24621]},{"teamCode":"QMVXPX","teamName":"マツーラのハラペコブログ","points":[24476]},{"teamCode":"4YRT0A","teamName":"鳥寸同好会２ｎｄ","points":[24438]},{"teamCode":"9JZKTB","teamName":"誤字と理論と引退と。","points":[24327]},{"teamCode":"CSXDZ8","teamName":"虹色の数字？なぜ数が変わってるんだ？","points":[24205]},{"teamCode":"5GN0LS","teamName":"お冷ロックで。","points":[24136]},{"teamCode":"59L3KN","teamName":"ふわふわモフモフ","points":[23903]},{"teamCode":"LNCTAW","teamName":"月乃霜","points":[23537]},{"teamCode":"RHGHK6","teamName":"ＫＵＴ","points":[23517]},{"teamCode":"RX8R98","teamName":"タルパ","points":[23372]},{"teamCode":"RNRR4R","teamName":"ち　ー　む　Ｕ　Ｋ　ＮＥＷ！！","points":[23168]},{"teamCode":"PC17X1","teamName":"一度はおいで　静岡県清水市とんかつ五郎十","points":[23134]},{"teamCode":"4PFZKZ","teamName":"ｖｏｙａｇｅ","points":[22897]},{"teamCode":"BPLQS9","teamName":"チ〜チュウニズムとこの世の悪について〜","points":[22856]},{"teamCode":"Z947DQ","teamName":"ゲームサークル音ゲー部門","points":[22706]}]};
+    const ctx = document.getElementById('chart').getContext('2d');
+
+    function makeDatasets(selectedCodes) {
+      const colors = [];
+      // simple color generator
+      for (let i=0;i<1000;i++) colors.push('hsl('+((i*37)%360)+',70%,'+ (30 + (i%6)*8) + '%)');
+
+      return data.teams
+        .filter(t => selectedCodes.includes(t.teamCode))
+        .map((t,i) => ({
+          label: t.teamName,
+          data: t.points,
+          borderColor: colors[i%colors.length],
+          backgroundColor: colors[i%colors.length],
+          fill: false,
+          spanGaps: false,
+        }));
+    }
+
+    let chart = null;
+    function draw(selectedCodes) {
+      const datasets = makeDatasets(selectedCodes);
+      if (chart) chart.destroy();
+      chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.dates,
+          datasets
+        },
+        options: {
+          interaction: {mode:'nearest',axis:'x',intersect:false},
+          plugins: {legend:{display:true,position:'bottom'}},
+          scales: {
+            y: {type:'linear', beginAtZero:false, ticks:{callback: v => v >= 1000000 ? (v/1000000)+'M' : v}}
+          }
+        }
+      });
+    }
+
+    function topNLatest(n) {
+      // get latest points index
+      const lastIdx = data.dates.length - 1;
+      const arr = data.teams.map(t => ({code:t.teamCode, name:t.teamName, latest: t.points[lastIdx]}));
+      arr.sort((a,b) => (b.latest||0) - (a.latest||0));
+      return arr.slice(0,n).map(x => x.code);
+    }
+
+    function renderCheckboxes(defaultSelected) {
+      const container = document.getElementById('checkboxes');
+      container.innerHTML = '';
+      data.teams.forEach(t => {
+        const id = 'cb_'+t.teamCode;
+        const div = document.createElement('span');
+        div.className = 'team-checkbox';
+        const inp = document.createElement('input');
+        inp.type = 'checkbox'; inp.id = id; inp.value = t.teamCode;
+        if (defaultSelected.includes(t.teamCode)) inp.checked = true;
+        const lab = document.createElement('label');
+        lab.htmlFor = id;
+        lab.textContent = t.teamName;
+        div.appendChild(inp); div.appendChild(lab);
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById('redraw').addEventListener('click', () => {
+      const n = Number(document.getElementById('topN').value) || 20;
+      const selected = topNLatest(n);
+      renderCheckboxes(selected);
+      draw(selected);
+    });
+
+    // initial
+    const initial = topNLatest(20);
+    renderCheckboxes(initial);
+    draw(initial);
+
+    // live toggling via checkboxes
+    document.getElementById('checkboxes').addEventListener('change', () => {
+      const checked = Array.from(document.querySelectorAll('#checkboxes input:checked')).map(i=>i.value);
+      draw(checked);
+    });
+  </script>
+</body>
+</html>
