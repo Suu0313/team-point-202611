@@ -1,706 +1,1103 @@
 {
   "dates": [
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "teams": [
     {
       "teamCode": "WV8LU9",
       "teamName": "デイサービスすずき",
       "points": [
-        488078
-      ]
-    },
-    {
-      "teamCode": "DWDBRQ",
-      "teamName": "Ｐｒｏｊｅｃｔ　ＷＥ",
-      "points": [
-        224560
-      ]
-    },
-    {
-      "teamCode": "SATXF2",
-      "teamName": "Ｔｅａｍウニ",
-      "points": [
-        166240
-      ]
-    },
-    {
-      "teamCode": "96M7ZV",
-      "teamName": "同人音楽愛好会",
-      "points": [
-        151286
-      ]
-    },
-    {
-      "teamCode": "XY4A4X",
-      "teamName": "Ｂｌｅｓｓｉｎｇ　ＮｅｘｔＰｈａｓｅ",
-      "points": [
-        111642
+        488078,
+        1030375
       ]
     },
     {
       "teamCode": "R1YTFS",
       "teamName": "魔法少女ノ魔女裁判",
       "points": [
-        109896
-      ]
-    },
-    {
-      "teamCode": "6KDBY4",
-      "teamName": "ミリオンライブ！ＮＥＷ！！",
-      "points": [
-        109050
-      ]
-    },
-    {
-      "teamCode": "W2J3Q4",
-      "teamName": "チームころねろこ",
-      "points": [
-        98227
-      ]
-    },
-    {
-      "teamCode": "TR10LF",
-      "teamName": "月鈴姉妹が好き",
-      "points": [
-        79701
-      ]
-    },
-    {
-      "teamCode": "ZNY819",
-      "teamName": "５ちゃんねる",
-      "points": [
-        78503
-      ]
-    },
-    {
-      "teamCode": "5X3XGX",
-      "teamName": "遍く無償の無限の愛",
-      "points": [
-        77645
-      ]
-    },
-    {
-      "teamCode": "PNCC23",
-      "teamName": "ソロプレイヤーコミュニティ",
-      "points": [
-        71686
-      ]
-    },
-    {
-      "teamCode": "A2SPZX",
-      "teamName": "御形アリシアナ愛好家",
-      "points": [
-        71278
-      ]
-    },
-    {
-      "teamCode": "2PYYYZ",
-      "teamName": "チュウニズムな人々",
-      "points": [
-        67544
-      ]
-    },
-    {
-      "teamCode": "GAERT3",
-      "teamName": "魔法少女にあこがれて",
-      "points": [
-        65506
-      ]
-    },
-    {
-      "teamCode": "656FNC",
-      "teamName": "社畜ＴＡＮＯ＊Ｃ",
-      "points": [
-        64695
-      ]
-    },
-    {
-      "teamCode": "SQWGE6",
-      "teamName": "－Ｄｏｐｐｅｌｇａｎｇｅｒ－",
-      "points": [
-        63758
-      ]
-    },
-    {
-      "teamCode": "C8H8M1",
-      "teamName": "ウニやるッスよ！！",
-      "points": [
-        60382
-      ]
-    },
-    {
-      "teamCode": "GW9AQL",
-      "teamName": "てんどんまん",
-      "points": [
-        55176
-      ]
-    },
-    {
-      "teamCode": "Q9CTGJ",
-      "teamName": "ＫｉＲａＲｅ",
-      "points": [
-        54515
-      ]
-    },
-    {
-      "teamCode": "EW2VC9",
-      "teamName": "イクイクイクシア",
-      "points": [
-        53360
-      ]
-    },
-    {
-      "teamCode": "T2Z34R",
-      "teamName": "お祈り片手トリル",
-      "points": [
-        53348
-      ]
-    },
-    {
-      "teamCode": "7HVM4M",
-      "teamName": "笠波羅探題",
-      "points": [
-        52481
-      ]
-    },
-    {
-      "teamCode": "ZMRCLM",
-      "teamName": "《廃人》〜Ａｌｗａｙｓ　ＣＨＵＮＩＴＨＭ",
-      "points": [
-        52404
-      ]
-    },
-    {
-      "teamCode": "ES2UC0",
-      "teamName": "言ノ葉の鈴生り",
-      "points": [
-        52315
-      ]
-    },
-    {
-      "teamCode": "4PY14F",
-      "teamName": "限界突破勢",
-      "points": [
-        52237
-      ]
-    },
-    {
-      "teamCode": "7AG4C6",
-      "teamName": "トリニティ総合学園　ティーパーティー部門",
-      "points": [
-        51853
-      ]
-    },
-    {
-      "teamCode": "YUHW89",
-      "teamName": "Ｒｅｍｉｎｉｓｃｅｎｃｅ",
-      "points": [
-        51695
-      ]
-    },
-    {
-      "teamCode": "ZM5E7X",
-      "teamName": "ユニのガーターリング",
-      "points": [
-        50722
-      ]
-    },
-    {
-      "teamCode": "MW1EW9",
-      "teamName": "∧ｌｌｙ（同盟）",
-      "points": [
-        49244
-      ]
-    },
-    {
-      "teamCode": "3M821C",
-      "teamName": "奏坂学園グラウンドスライダー同好会",
-      "points": [
-        47025
-      ]
-    },
-    {
-      "teamCode": "560FK0",
-      "teamName": "赤いスク水メイド隊",
-      "points": [
-        46635
-      ]
-    },
-    {
-      "teamCode": "1SYY6S",
-      "teamName": "縦連打党",
-      "points": [
-        46634
-      ]
-    },
-    {
-      "teamCode": "U37AQV",
-      "teamName": "ＡｄмｉЯｒｉ",
-      "points": [
-        46100
-      ]
-    },
-    {
-      "teamCode": "55JLN1",
-      "teamName": "・：＊＋．￥（（　°ω°　））／．：＋",
-      "points": [
-        45912
-      ]
-    },
-    {
-      "teamCode": "EYT3J9",
-      "teamName": "修論から逃げるな",
-      "points": [
-        44838
-      ]
-    },
-    {
-      "teamCode": "XU2MM2",
-      "teamName": "あまの誓い",
-      "points": [
-        44807
-      ]
-    },
-    {
-      "teamCode": "5YDBVT",
-      "teamName": "Ｃ：／ＵＮ［ｉ］ＫＮＯＷＮ／Ｓｙｓｔｅｍ",
-      "points": [
-        44310
-      ]
-    },
-    {
-      "teamCode": "TPGZQN",
-      "teamName": "Ｍｅｌｌｏｗ　ｏｆ　Ｌｉｇｈｔ＊",
-      "points": [
-        43144
-      ]
-    },
-    {
-      "teamCode": "RCPVM0",
-      "teamName": "ＳｎｏｗＰａｒｋ",
-      "points": [
-        41849
-      ]
-    },
-    {
-      "teamCode": "GXP6Z3",
-      "teamName": "初音ミクの胸を盛るな高校",
-      "points": [
-        40730
-      ]
-    },
-    {
-      "teamCode": "AM4HTC",
-      "teamName": "おねんね",
-      "points": [
-        40713
-      ]
-    },
-    {
-      "teamCode": "MRE6M4",
-      "teamName": "天使爛漫",
-      "points": [
-        40352
-      ]
-    },
-    {
-      "teamCode": "HR1CN7",
-      "teamName": "ＶＥＲＳＥ開放用チーム",
-      "points": [
-        40070
-      ]
-    },
-    {
-      "teamCode": "F4S0VB",
-      "teamName": "フラスコ・オーディション",
-      "points": [
-        39263
-      ]
-    },
-    {
-      "teamCode": "PUYTPU",
-      "teamName": "相対性理論",
-      "points": [
-        38217
-      ]
-    },
-    {
-      "teamCode": "VP5USC",
-      "teamName": "掘り炬燵潜り戸倉上山田杏月下覗き踏まれ部",
-      "points": [
-        37548
-      ]
-    },
-    {
-      "teamCode": "BAUEMZ",
-      "teamName": "ギターと孤独と青いユニ",
-      "points": [
-        37317
-      ]
-    },
-    {
-      "teamCode": "PAME1N",
-      "teamName": "モルりズム",
-      "points": [
-        37153
-      ]
-    },
-    {
-      "teamCode": "H3SCKJ",
-      "teamName": "Ｗｏｎｄｅｒｌａｎｄ　Ｄｒｅａｍｓ",
-      "points": [
-        36810
-      ]
-    },
-    {
-      "teamCode": "375201",
-      "teamName": "怒　－定数詐称と鳥寸について－",
-      "points": [
-        36641
-      ]
-    },
-    {
-      "teamCode": "DRUMB7",
-      "teamName": "コマリ倶楽部",
-      "points": [
-        36348
-      ]
-    },
-    {
-      "teamCode": "ZW5EML",
-      "teamName": "ＺＣ",
-      "points": [
-        35850
-      ]
-    },
-    {
-      "teamCode": "ULGS71",
-      "teamName": "無知蒙昧の衆",
-      "points": [
-        35300
-      ]
-    },
-    {
-      "teamCode": "EZV81H",
-      "teamName": "ＶＥＬＩＫＡ",
-      "points": [
-        35068
-      ]
-    },
-    {
-      "teamCode": "36L8E3",
-      "teamName": "ｂａｔｔｌｅ　ｍａｄｎｅｓｓ",
-      "points": [
-        34742
-      ]
-    },
-    {
-      "teamCode": "3FAFGX",
-      "teamName": "ＬＯＮＥＲ",
-      "points": [
-        33144
-      ]
-    },
-    {
-      "teamCode": "V2T0AG",
-      "teamName": "ＳｔａｒＬｉｇｈｔＳ",
-      "points": [
-        33025
-      ]
-    },
-    {
-      "teamCode": "LP6JP5",
-      "teamName": "全力！ハッピーエブリデイ！",
-      "points": [
-        32454
-      ]
-    },
-    {
-      "teamCode": "82CZ9M",
-      "teamName": "社会の癌",
-      "points": [
-        32410
-      ]
-    },
-    {
-      "teamCode": "DS680P",
-      "teamName": "ハイカラモーション",
-      "points": [
-        32204
-      ]
-    },
-    {
-      "teamCode": "TNT5M2",
-      "teamName": "ｃａｐｉｔａｌ",
-      "points": [
-        31838
-      ]
-    },
-    {
-      "teamCode": "DKBJX8",
-      "teamName": "ぼっち・ざ・うにろっく！",
-      "points": [
-        31537
-      ]
-    },
-    {
-      "teamCode": "9JUMT6",
-      "teamName": "ＣａｓｕａｌＧｅｍｅｒ＿ＣＨＵＮＩＴＨＭ",
-      "points": [
-        31493
+        109896,
+        509164
       ]
     },
     {
       "teamCode": "TKZAZ4",
       "teamName": "ホワイト企業",
       "points": [
-        31205
+        31205,
+        502868
       ]
     },
     {
-      "teamCode": "UEMRAK",
-      "teamName": "た　ま",
+      "teamCode": "XY4A4X",
+      "teamName": "Ｂｌｅｓｓｉｎｇ　ＮｅｘｔＰｈａｓｅ",
       "points": [
-        30932
+        111642,
+        400622
       ]
     },
     {
-      "teamCode": "BEK78T",
-      "teamName": "ＣＡＫＥ　ｓｗｅａｔｓ　ＡＬＬＭｉｘ！！",
+      "teamCode": "YUHW89",
+      "teamName": "Ｒｅｍｉｎｉｓｃｅｎｃｅ",
       "points": [
-        30459
+        51695,
+        338373
       ]
     },
     {
-      "teamCode": "DYTCEV",
-      "teamName": "さきいか",
+      "teamCode": "PNCC23",
+      "teamName": "ソロプレイヤーコミュニティ",
       "points": [
-        30236
+        71686,
+        323857
       ]
     },
     {
-      "teamCode": "5HV2SF",
-      "teamName": "みるくちゃん",
+      "teamCode": "TR10LF",
+      "teamName": "月鈴姉妹が好き",
       "points": [
-        30213
+        79701,
+        321202
       ]
     },
     {
-      "teamCode": "SFH92T",
-      "teamName": "ガボンズ",
+      "teamCode": "DWDBRQ",
+      "teamName": "Ｐｒｏｊｅｃｔ　ＷＥ",
       "points": [
-        29840
+        224560,
+        319705
       ]
     },
     {
-      "teamCode": "BM01W6",
-      "teamName": "Ｏｍｏｃｈａ　　Ｓｃｒａｍｂｌｅ！",
+      "teamCode": "SQWGE6",
+      "teamName": "－Ｄｏｐｐｅｌｇａｎｇｅｒ－",
       "points": [
-        28737
+        63758,
+        279968
       ]
     },
     {
-      "teamCode": "HSMNL2",
-      "teamName": "マジウニミライ３９３９",
+      "teamCode": "375201",
+      "teamName": "怒　－定数詐称と鳥寸について－",
       "points": [
-        28494
+        36641,
+        269932
+      ]
+    },
+    {
+      "teamCode": "6KDBY4",
+      "teamName": "ミリオンライブ！ＮＥＷ！！",
+      "points": [
+        109050,
+        202968
+      ]
+    },
+    {
+      "teamCode": "AXDBTD",
+      "teamName": "チームＳｎω",
+      "points": [
+        null,
+        188719
+      ]
+    },
+    {
+      "teamCode": "SATXF2",
+      "teamName": "Ｔｅａｍウニ",
+      "points": [
+        166240,
+        181545
       ]
     },
     {
       "teamCode": "RYFGCQ",
       "teamName": "チームたけうち",
       "points": [
-        27757
+        27757,
+        173775
       ]
     },
     {
-      "teamCode": "G68MGV",
-      "teamName": "カバヂー",
+      "teamCode": "96M7ZV",
+      "teamName": "同人音楽愛好会",
       "points": [
-        27648
+        151286,
+        159257
       ]
     },
     {
-      "teamCode": "LG3EM9",
-      "teamName": "スライドは“悪”委員会",
+      "teamCode": "U844SK",
+      "teamName": "とある競プロｅｒと仲間たち",
       "points": [
-        27577
+        null,
+        156846
       ]
     },
     {
-      "teamCode": "U8FQ2J",
-      "teamName": "Ｉｒｉｓ",
+      "teamCode": "GW9AQL",
+      "teamName": "てんどんまん",
       "points": [
-        26988
+        55176,
+        141543
       ]
     },
     {
-      "teamCode": "2X73E8",
-      "teamName": "こましぇると愉快な音ゲーマーｓ",
+      "teamCode": "Y1406W",
+      "teamName": "Ｄｒｅａｍ　Ｂｅｌｉｅｖｅｒｓ",
       "points": [
-        26985
+        null,
+        140997
       ]
     },
     {
-      "teamCode": "ZZ5N9R",
-      "teamName": "嬉しい＿♪",
+      "teamCode": "A2SPZX",
+      "teamName": "御形アリシアナ愛好家",
       "points": [
-        26724
+        71278,
+        139400
       ]
     },
     {
-      "teamCode": "5EREJ4",
-      "teamName": "Ｄｅｃｅｎｓｕｓ　Ａｄ　Ｎｉｈｉｌｕｍ",
+      "teamCode": "F0TVWZ",
+      "teamName": "集まれウニズムの森",
       "points": [
-        26379
+        null,
+        130050
       ]
     },
     {
-      "teamCode": "X0N2WK",
-      "teamName": "竜田揚げより唐揚げ派",
+      "teamCode": "02PY8X",
+      "teamName": "無限のやる気（出るとは言ってない）",
       "points": [
-        25740
+        null,
+        127747
       ]
     },
     {
-      "teamCode": "X2VC64",
-      "teamName": "ゆーとぴあ",
+      "teamCode": "W2J3Q4",
+      "teamName": "チームころねろこ",
       "points": [
-        25238
+        98227,
+        127398
       ]
     },
     {
-      "teamCode": "BPCJQG",
-      "teamName": "〈聖域〉〜ＦａＮｕＭ〜",
+      "teamCode": "T2Z34R",
+      "teamName": "お祈り片手トリル",
       "points": [
-        25232
+        53348,
+        124214
       ]
     },
     {
-      "teamCode": "BG9TA9",
-      "teamName": "ＲＯＭ専の館",
+      "teamCode": "X9A006",
+      "teamName": "《丸亀》　〜Ｕｄｏｎ",
       "points": [
-        25150
+        null,
+        114342
       ]
     },
     {
-      "teamCode": "PEFMG1",
-      "teamName": "精度よわよわ民族",
+      "teamCode": "0NPF7B",
+      "teamName": "動画をあれこれしてた民",
       "points": [
-        24899
+        null,
+        111466
       ]
     },
     {
-      "teamCode": "HMQ2LV",
-      "teamName": "リプトン同好会",
+      "teamCode": "BAUEMZ",
+      "teamName": "ギターと孤独と青いユニ",
       "points": [
-        24791
+        37317,
+        109362
       ]
     },
     {
-      "teamCode": "YR2TLY",
-      "teamName": "夢のまた先へ",
+      "teamCode": "GAERT3",
+      "teamName": "魔法少女にあこがれて",
       "points": [
-        24621
+        65506,
+        109157
       ]
     },
     {
-      "teamCode": "QMVXPX",
-      "teamName": "マツーラのハラペコブログ",
+      "teamCode": "7AG4C6",
+      "teamName": "トリニティ総合学園　ティーパーティー部門",
       "points": [
-        24476
-      ]
-    },
-    {
-      "teamCode": "4YRT0A",
-      "teamName": "鳥寸同好会２ｎｄ",
-      "points": [
-        24438
-      ]
-    },
-    {
-      "teamCode": "9JZKTB",
-      "teamName": "誤字と理論と引退と。",
-      "points": [
-        24327
-      ]
-    },
-    {
-      "teamCode": "CSXDZ8",
-      "teamName": "虹色の数字？なぜ数が変わってるんだ？",
-      "points": [
-        24205
-      ]
-    },
-    {
-      "teamCode": "5GN0LS",
-      "teamName": "お冷ロックで。",
-      "points": [
-        24136
+        51853,
+        107990
       ]
     },
     {
       "teamCode": "59L3KN",
       "teamName": "ふわふわモフモフ",
       "points": [
-        23903
+        23903,
+        103297
       ]
     },
     {
-      "teamCode": "LNCTAW",
-      "teamName": "月乃霜",
+      "teamCode": "ZNY819",
+      "teamName": "５ちゃんねる",
       "points": [
-        23537
+        78503,
+        103140
       ]
     },
     {
-      "teamCode": "RHGHK6",
-      "teamName": "ＫＵＴ",
+      "teamCode": "5X3XGX",
+      "teamName": "遍く無償の無限の愛",
       "points": [
-        23517
+        77645,
+        101981
       ]
     },
     {
-      "teamCode": "RX8R98",
-      "teamName": "タルパ",
+      "teamCode": "DKBJX8",
+      "teamName": "ぼっち・ざ・うにろっく！",
       "points": [
-        23372
+        31537,
+        101400
       ]
     },
     {
-      "teamCode": "RNRR4R",
-      "teamName": "ち　ー　む　Ｕ　Ｋ　ＮＥＷ！！",
+      "teamCode": "RQLQM5",
+      "teamName": "有馬ジャッジメント",
       "points": [
-        23168
+        null,
+        101343
       ]
     },
     {
-      "teamCode": "PC17X1",
-      "teamName": "一度はおいで　静岡県清水市とんかつ五郎十",
+      "teamCode": "36L8E3",
+      "teamName": "ｂａｔｔｌｅ　ｍａｄｎｅｓｓ",
       "points": [
-        23134
+        34742,
+        96697
+      ]
+    },
+    {
+      "teamCode": "Q9CTGJ",
+      "teamName": "ＫｉＲａＲｅ",
+      "points": [
+        54515,
+        95286
+      ]
+    },
+    {
+      "teamCode": "4YRT0A",
+      "teamName": "鳥寸同好会２ｎｄ",
+      "points": [
+        24438,
+        91654
+      ]
+    },
+    {
+      "teamCode": "V2T0AG",
+      "teamName": "ＳｔａｒＬｉｇｈｔＳ",
+      "points": [
+        33025,
+        89700
+      ]
+    },
+    {
+      "teamCode": "ZRYA78",
+      "teamName": "ＫＭＵＮ　ＮＥＷ",
+      "points": [
+        null,
+        89699
+      ]
+    },
+    {
+      "teamCode": "TNT5M2",
+      "teamName": "ｃａｐｉｔａｌ",
+      "points": [
+        31838,
+        80968
+      ]
+    },
+    {
+      "teamCode": "3M821C",
+      "teamName": "奏坂学園グラウンドスライダー同好会",
+      "points": [
+        47025,
+        80421
+      ]
+    },
+    {
+      "teamCode": "EW2VC9",
+      "teamName": "イクイクイクシア",
+      "points": [
+        53360,
+        79848
+      ]
+    },
+    {
+      "teamCode": "ZMRCLM",
+      "teamName": "《廃人》〜Ａｌｗａｙｓ　ＣＨＵＮＩＴＨＭ",
+      "points": [
+        52404,
+        79645
+      ]
+    },
+    {
+      "teamCode": "656FNC",
+      "teamName": "社畜ＴＡＮＯ＊Ｃ",
+      "points": [
+        64695,
+        79109
+      ]
+    },
+    {
+      "teamCode": "P9MBH9",
+      "teamName": "宇宙をかける笑顔の魔法♪",
+      "points": [
+        null,
+        79092
+      ]
+    },
+    {
+      "teamCode": "7HVM4M",
+      "teamName": "笠波羅探題",
+      "points": [
+        52481,
+        77281
+      ]
+    },
+    {
+      "teamCode": "CJU509",
+      "teamName": "日進月歩",
+      "points": [
+        null,
+        76889
+      ]
+    },
+    {
+      "teamCode": "9JUMT6",
+      "teamName": "ＣａｓｕａｌＧｅｍｅｒ＿ＣＨＵＮＩＴＨＭ",
+      "points": [
+        31493,
+        76517
+      ]
+    },
+    {
+      "teamCode": "AM4HTC",
+      "teamName": "おねんね",
+      "points": [
+        40713,
+        72229
+      ]
+    },
+    {
+      "teamCode": "MB7T0E",
+      "teamName": "Ｑ－ｓａｉ．",
+      "points": [
+        null,
+        71605
+      ]
+    },
+    {
+      "teamCode": "0VFQ8Q",
+      "teamName": "なんかねこちゃんでた",
+      "points": [
+        null,
+        71230
+      ]
+    },
+    {
+      "teamCode": "S47T4Q",
+      "teamName": "Ｂａｂｙ，ｐｌｅａｓｅ　ｋｉｌｌ　ｍｅ．",
+      "points": [
+        null,
+        71207
+      ]
+    },
+    {
+      "teamCode": "TPGZQN",
+      "teamName": "Ｍｅｌｌｏｗ　ｏｆ　Ｌｉｇｈｔ＊",
+      "points": [
+        43144,
+        71175
+      ]
+    },
+    {
+      "teamCode": "55JLN1",
+      "teamName": "・：＊＋．￥（（　°ω°　））／．：＋",
+      "points": [
+        45912,
+        70320
+      ]
+    },
+    {
+      "teamCode": "L5EC5R",
+      "teamName": "指押しと擦り倶楽部",
+      "points": [
+        null,
+        69998
+      ]
+    },
+    {
+      "teamCode": "4BZ90K",
+      "teamName": "ＡｄｒａｓｔｅＡ",
+      "points": [
+        null,
+        69212
+      ]
+    },
+    {
+      "teamCode": "BY83QQ",
+      "teamName": "Ξ＾．ω．＾Ξ",
+      "points": [
+        null,
+        68927
+      ]
+    },
+    {
+      "teamCode": "MRE6M4",
+      "teamName": "天使爛漫",
+      "points": [
+        40352,
+        68693
+      ]
+    },
+    {
+      "teamCode": "2PYYYZ",
+      "teamName": "チュウニズムな人々",
+      "points": [
+        67544,
+        67544
+      ]
+    },
+    {
+      "teamCode": "9NMYDJ",
+      "teamName": "神秘の次元　四次元の探求者",
+      "points": [
+        null,
+        66596
+      ]
+    },
+    {
+      "teamCode": "EYT3J9",
+      "teamName": "修論から逃げるな",
+      "points": [
+        44838,
+        66212
+      ]
+    },
+    {
+      "teamCode": "ZM5E7X",
+      "teamName": "ユニのガーターリング",
+      "points": [
+        50722,
+        65547
+      ]
+    },
+    {
+      "teamCode": "LG3EM9",
+      "teamName": "スライドは“悪”委員会",
+      "points": [
+        27577,
+        64927
+      ]
+    },
+    {
+      "teamCode": "CSXDZ8",
+      "teamName": "虹色の数字？なぜ数が変わってるんだ？",
+      "points": [
+        24205,
+        63985
+      ]
+    },
+    {
+      "teamCode": "69NWZS",
+      "teamName": "Ｍａｘｉｍｕｍ　ｏｔｉｎｔｉｎ",
+      "points": [
+        null,
+        63795
+      ]
+    },
+    {
+      "teamCode": "0RPVEJ",
+      "teamName": "ＣＨＵＮＩＴＨＭエンジョイ委員会",
+      "points": [
+        null,
+        63604
+      ]
+    },
+    {
+      "teamCode": "4PY14F",
+      "teamName": "限界突破勢",
+      "points": [
+        52237,
+        62277
+      ]
+    },
+    {
+      "teamCode": "GXP6Z3",
+      "teamName": "初音ミクの胸を盛るな高校",
+      "points": [
+        40730,
+        62203
+      ]
+    },
+    {
+      "teamCode": "5YDBVT",
+      "teamName": "Ｃ：／ＵＮ［ｉ］ＫＮＯＷＮ／Ｓｙｓｔｅｍ",
+      "points": [
+        44310,
+        61769
+      ]
+    },
+    {
+      "teamCode": "MW1EW9",
+      "teamName": "∧ｌｌｙ（同盟）",
+      "points": [
+        49244,
+        61565
+      ]
+    },
+    {
+      "teamCode": "PUYTPU",
+      "teamName": "相対性理論",
+      "points": [
+        38217,
+        61308
+      ]
+    },
+    {
+      "teamCode": "C01UFN",
+      "teamName": "井の中フロッグ享楽珍道中",
+      "points": [
+        null,
+        61168
+      ]
+    },
+    {
+      "teamCode": "CGS0QQ",
+      "teamName": "ＧＵＥＳＴ",
+      "points": [
+        null,
+        60828
+      ]
+    },
+    {
+      "teamCode": "HR1CN7",
+      "teamName": "ＶＥＲＳＥ開放用チーム",
+      "points": [
+        40070,
+        60782
+      ]
+    },
+    {
+      "teamCode": "C8H8M1",
+      "teamName": "ウニやるッスよ！！",
+      "points": [
+        60382,
+        60382
+      ]
+    },
+    {
+      "teamCode": "R58TEF",
+      "teamName": "結束バンド",
+      "points": [
+        null,
+        60005
+      ]
+    },
+    {
+      "teamCode": "9JZKTB",
+      "teamName": "誤字と理論と引退と。",
+      "points": [
+        24327,
+        59535
+      ]
+    },
+    {
+      "teamCode": "F4S0VB",
+      "teamName": "フラスコ・オーディション",
+      "points": [
+        39263,
+        58926
+      ]
+    },
+    {
+      "teamCode": "KMSWDC",
+      "teamName": "運命の一劇",
+      "points": [
+        null,
+        58740
+      ]
+    },
+    {
+      "teamCode": "3FAFGX",
+      "teamName": "ＬＯＮＥＲ",
+      "points": [
+        33144,
+        57828
       ]
     },
     {
       "teamCode": "4PFZKZ",
       "teamName": "ｖｏｙａｇｅ",
       "points": [
-        22897
+        22897,
+        57162
+      ]
+    },
+    {
+      "teamCode": "560FK0",
+      "teamName": "赤いスク水メイド隊",
+      "points": [
+        46635,
+        57016
+      ]
+    },
+    {
+      "teamCode": "82CZ9M",
+      "teamName": "社会の癌",
+      "points": [
+        32410,
+        56883
+      ]
+    },
+    {
+      "teamCode": "ZXHRR1",
+      "teamName": "ＷＥＬＯＶＥとよた",
+      "points": [
+        null,
+        56448
+      ]
+    },
+    {
+      "teamCode": "JDHHJ3",
+      "teamName": "深夜組",
+      "points": [
+        null,
+        56267
+      ]
+    },
+    {
+      "teamCode": "7RLCFR",
+      "teamName": "ウパー王国",
+      "points": [
+        null,
+        56139
+      ]
+    },
+    {
+      "teamCode": "LPZ2X3",
+      "teamName": "ウニを上手くなりたい人！！！",
+      "points": [
+        null,
+        56021
+      ]
+    },
+    {
+      "teamCode": "905DSL",
+      "teamName": "Ｐｏｐｐｉｎ’Ｐａｒｔｙ",
+      "points": [
+        null,
+        55837
+      ]
+    },
+    {
+      "teamCode": "19HMYU",
+      "teamName": "ＣＨＵＮＩＴＨＭ好きがあつまるチーム",
+      "points": [
+        null,
+        55751
+      ]
+    },
+    {
+      "teamCode": "XU2MM2",
+      "teamName": "あまの誓い",
+      "points": [
+        44807,
+        55616
+      ]
+    },
+    {
+      "teamCode": "7ZZ19B",
+      "teamName": "鳥だせ！混沌の森！！",
+      "points": [
+        null,
+        54824
+      ]
+    },
+    {
+      "teamCode": "663H5F",
+      "teamName": "ゆりゆららららゆるゆり大事件",
+      "points": [
+        null,
+        53822
+      ]
+    },
+    {
+      "teamCode": "ZRRXJ5",
+      "teamName": "仮ぐる",
+      "points": [
+        null,
+        52632
+      ]
+    },
+    {
+      "teamCode": "ES2UC0",
+      "teamName": "言ノ葉の鈴生り",
+      "points": [
+        52315,
+        52315
+      ]
+    },
+    {
+      "teamCode": "5EREJ4",
+      "teamName": "Ｄｅｃｅｎｓｕｓ　Ａｄ　Ｎｉｈｉｌｕｍ",
+      "points": [
+        26379,
+        52305
+      ]
+    },
+    {
+      "teamCode": "MH4MG1",
+      "teamName": "白髪美少女はいいぞ",
+      "points": [
+        null,
+        51314
+      ]
+    },
+    {
+      "teamCode": "K6W8EN",
+      "teamName": "Ａｅｇｉｓ",
+      "points": [
+        null,
+        50872
+      ]
+    },
+    {
+      "teamCode": "9GEE7Q",
+      "teamName": "Ａｃｕｔｅ　Ｍ・Ｏ・Ｅ　Ｓｙｎｄｒｏｍｅ",
+      "points": [
+        null,
+        50406
+      ]
+    },
+    {
+      "teamCode": "PAME1N",
+      "teamName": "モルりズム",
+      "points": [
+        37153,
+        50259
+      ]
+    },
+    {
+      "teamCode": "RCPVM0",
+      "teamName": "ＳｎｏｗＰａｒｋ",
+      "points": [
+        41849,
+        50136
+      ]
+    },
+    {
+      "teamCode": "3YB3FL",
+      "teamName": "ＶＯＣＡＬＯＩＤ愛好家",
+      "points": [
+        null,
+        49981
+      ]
+    },
+    {
+      "teamCode": "1SYY6S",
+      "teamName": "縦連打党",
+      "points": [
+        46634,
+        null
+      ]
+    },
+    {
+      "teamCode": "U37AQV",
+      "teamName": "ＡｄмｉЯｒｉ",
+      "points": [
+        46100,
+        null
+      ]
+    },
+    {
+      "teamCode": "VP5USC",
+      "teamName": "掘り炬燵潜り戸倉上山田杏月下覗き踏まれ部",
+      "points": [
+        37548,
+        null
+      ]
+    },
+    {
+      "teamCode": "H3SCKJ",
+      "teamName": "Ｗｏｎｄｅｒｌａｎｄ　Ｄｒｅａｍｓ",
+      "points": [
+        36810,
+        null
+      ]
+    },
+    {
+      "teamCode": "DRUMB7",
+      "teamName": "コマリ倶楽部",
+      "points": [
+        36348,
+        null
+      ]
+    },
+    {
+      "teamCode": "ZW5EML",
+      "teamName": "ＺＣ",
+      "points": [
+        35850,
+        null
+      ]
+    },
+    {
+      "teamCode": "ULGS71",
+      "teamName": "無知蒙昧の衆",
+      "points": [
+        35300,
+        null
+      ]
+    },
+    {
+      "teamCode": "EZV81H",
+      "teamName": "ＶＥＬＩＫＡ",
+      "points": [
+        35068,
+        null
+      ]
+    },
+    {
+      "teamCode": "LP6JP5",
+      "teamName": "全力！ハッピーエブリデイ！",
+      "points": [
+        32454,
+        null
+      ]
+    },
+    {
+      "teamCode": "DS680P",
+      "teamName": "ハイカラモーション",
+      "points": [
+        32204,
+        null
+      ]
+    },
+    {
+      "teamCode": "UEMRAK",
+      "teamName": "た　ま",
+      "points": [
+        30932,
+        null
+      ]
+    },
+    {
+      "teamCode": "BEK78T",
+      "teamName": "ＣＡＫＥ　ｓｗｅａｔｓ　ＡＬＬＭｉｘ！！",
+      "points": [
+        30459,
+        null
+      ]
+    },
+    {
+      "teamCode": "DYTCEV",
+      "teamName": "さきいか",
+      "points": [
+        30236,
+        null
+      ]
+    },
+    {
+      "teamCode": "5HV2SF",
+      "teamName": "みるくちゃん",
+      "points": [
+        30213,
+        null
+      ]
+    },
+    {
+      "teamCode": "SFH92T",
+      "teamName": "ガボンズ",
+      "points": [
+        29840,
+        null
+      ]
+    },
+    {
+      "teamCode": "BM01W6",
+      "teamName": "Ｏｍｏｃｈａ　　Ｓｃｒａｍｂｌｅ！",
+      "points": [
+        28737,
+        null
+      ]
+    },
+    {
+      "teamCode": "HSMNL2",
+      "teamName": "マジウニミライ３９３９",
+      "points": [
+        28494,
+        null
+      ]
+    },
+    {
+      "teamCode": "G68MGV",
+      "teamName": "カバヂー",
+      "points": [
+        27648,
+        null
+      ]
+    },
+    {
+      "teamCode": "U8FQ2J",
+      "teamName": "Ｉｒｉｓ",
+      "points": [
+        26988,
+        null
+      ]
+    },
+    {
+      "teamCode": "2X73E8",
+      "teamName": "こましぇると愉快な音ゲーマーｓ",
+      "points": [
+        26985,
+        null
+      ]
+    },
+    {
+      "teamCode": "ZZ5N9R",
+      "teamName": "嬉しい＿♪",
+      "points": [
+        26724,
+        null
+      ]
+    },
+    {
+      "teamCode": "X0N2WK",
+      "teamName": "竜田揚げより唐揚げ派",
+      "points": [
+        25740,
+        null
+      ]
+    },
+    {
+      "teamCode": "X2VC64",
+      "teamName": "ゆーとぴあ",
+      "points": [
+        25238,
+        null
+      ]
+    },
+    {
+      "teamCode": "BPCJQG",
+      "teamName": "〈聖域〉〜ＦａＮｕＭ〜",
+      "points": [
+        25232,
+        null
+      ]
+    },
+    {
+      "teamCode": "BG9TA9",
+      "teamName": "ＲＯＭ専の館",
+      "points": [
+        25150,
+        null
+      ]
+    },
+    {
+      "teamCode": "PEFMG1",
+      "teamName": "精度よわよわ民族",
+      "points": [
+        24899,
+        null
+      ]
+    },
+    {
+      "teamCode": "HMQ2LV",
+      "teamName": "リプトン同好会",
+      "points": [
+        24791,
+        null
+      ]
+    },
+    {
+      "teamCode": "YR2TLY",
+      "teamName": "夢のまた先へ",
+      "points": [
+        24621,
+        null
+      ]
+    },
+    {
+      "teamCode": "QMVXPX",
+      "teamName": "マツーラのハラペコブログ",
+      "points": [
+        24476,
+        null
+      ]
+    },
+    {
+      "teamCode": "5GN0LS",
+      "teamName": "お冷ロックで。",
+      "points": [
+        24136,
+        null
+      ]
+    },
+    {
+      "teamCode": "LNCTAW",
+      "teamName": "月乃霜",
+      "points": [
+        23537,
+        null
+      ]
+    },
+    {
+      "teamCode": "RHGHK6",
+      "teamName": "ＫＵＴ",
+      "points": [
+        23517,
+        null
+      ]
+    },
+    {
+      "teamCode": "RX8R98",
+      "teamName": "タルパ",
+      "points": [
+        23372,
+        null
+      ]
+    },
+    {
+      "teamCode": "RNRR4R",
+      "teamName": "ち　ー　む　Ｕ　Ｋ　ＮＥＷ！！",
+      "points": [
+        23168,
+        null
+      ]
+    },
+    {
+      "teamCode": "PC17X1",
+      "teamName": "一度はおいで　静岡県清水市とんかつ五郎十",
+      "points": [
+        23134,
+        null
       ]
     },
     {
       "teamCode": "BPLQS9",
       "teamName": "チ〜チュウニズムとこの世の悪について〜",
       "points": [
-        22856
+        22856,
+        null
       ]
     },
     {
       "teamCode": "Z947DQ",
       "teamName": "ゲームサークル音ゲー部門",
       "points": [
-        22706
+        22706,
+        null
       ]
     }
   ]
